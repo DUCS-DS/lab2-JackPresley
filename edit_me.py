@@ -9,6 +9,8 @@ def monotonic(lst):
             increasing = False
         if lst[i] > lst[i - 1]:
             decreasing = False
+        if not increasing and not decreasing:
+            return False
     
     return increasing or decreasing
 
@@ -31,3 +33,4 @@ if __name__ == "__main__":
 
     test_list6 = [6, 5, 4, 3, 2, 1]
     print(monotonic(test_list6))  # True
+

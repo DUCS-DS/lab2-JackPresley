@@ -7,8 +7,8 @@ Lab 2 for Spring 25 Data Structures
 Referring to the algorithm you implemented in the function **monotonic** in the
 file **edit_me.py** and assuming that the input list has length **N**,
 
-* the big-O worst-case complexity is the maximum length list, and
-* the big-O best-case complexity is only one or zero numbers in a list.
+* the big-O worst-case complexity is N, and
+* the big-O best-case complexity is 1.
 
 Referring to the code block below,
 * the big-O worst-case complexity of the function **search** is when the key is not present in the list.
@@ -44,4 +44,4 @@ Notes:
 
 #### Critique
 
-I would use the function **search** (defined above) in real life because the search function is useful for quickly finding specific items in sorted data, such as databases, dictionaries, or inventories, where efficiency is needed.
+I would use the function **search** (defined above) in real life because the search function is useful for quickly finding specific items in sorted data, like databases, dictionaries, or inventories, where efficiency is needed.
