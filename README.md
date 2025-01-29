@@ -8,7 +8,7 @@ Referring to the algorithm you implemented in the function **monotonic** in the
 file **edit_me.py** and assuming that the input list has length **N**,
 
 * the big-O worst-case complexity is O(n), and
-* the big-O best-case complexity is one or zero items.
+* the big-O best-case complexity is O(1).
 
 Referring to the code block below,
 * the big-O worst-case complexity of the function **search** is when the key is not present in the list.
