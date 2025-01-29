@@ -7,8 +7,8 @@ Lab 2 for Spring 25 Data Structures
 Referring to the algorithm you implemented in the function **monotonic** in the
 file **edit_me.py** and assuming that the input list has length **N**,
 
-* the big-O worst-case complexity is N, and
-* the big-O best-case complexity is 1.
+* the big-O worst-case complexity is O(n), and
+* the big-O best-case complexity is one or zero items.
 
 Referring to the code block below,
 * the big-O worst-case complexity of the function **search** is when the key is not present in the list.
